@@ -28,8 +28,8 @@
 Spring Data, 
 Spring Boot, 
 Flyway,
-Lombok
-Building a project: Maven
+Lombok <br>
+Building a project: Maven <br>
 Database: PostgreSQL
 
 ## Настройки
@@ -43,14 +43,17 @@ schema iteratia
 
 ## Сборка
 - Установить Apache Maven в Windows, скачать zip-файл Maven, разархивировать его в папку и настроить переменные среды Windows
-- 
 
 
 ```sh
-cd dillinger
-npm i
-node app
+git clone https://github.com/golovkinVladislav/Test-Task-from-the-company-Iteratia.git
+cd Test-Task-from-the-company-Iteratia
+mvn spring-boot:run
 ```
+
+```sh
+http://localhost:8888/convector
+``` 
 
 
 
