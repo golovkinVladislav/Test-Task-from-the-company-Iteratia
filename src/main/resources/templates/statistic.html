@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <title>Статистика</title>
+</head>
+<body>
+<span th:text="${averageValue == null ? ' ' : 'Средний курс за неделю: c ' + dateStart + ' по ' + dateEnd + ' --> ' + averageValue + ' по валютной паре: ' + currencyOne +' : ' + currencyTwo}"/>
+<br><br>
+<span th:text="${getSumResultValue == null ? ' ' : 'Сумма конвертации за неделю : c ' + dateStart + ' по ' + dateEnd + ' --> ' + getSumResultValue + ' по валютной паре: ' + currencyOne +' : ' + currencyTwo}"/>
+<br><br>
+<span>
+    <a th:href="@{'/convector'}" th:text="Назад"/>
+</span>
+
+</body>
+</html>
