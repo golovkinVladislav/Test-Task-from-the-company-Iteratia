@@ -36,8 +36,8 @@ Database: PostgreSQL
 port: 8888
 ```sh
 postgres:
-username admin
-password postgres
+username postgres
+password admin
 schema iteratia
 ``` 
 
